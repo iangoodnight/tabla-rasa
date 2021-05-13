@@ -1,0 +1,11 @@
+{
+  "name": "tabla-rasa",
+  "version": "1.0.0",
+  "description": "Monorepo for tabla-rasa project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ian Goodnight",
+  "license": "ISC"
+}
