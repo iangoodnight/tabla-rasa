@@ -2,10 +2,15 @@
   "name": "tabla-rasa",
   "version": "1.0.0",
   "description": "Monorepo for tabla-rasa project",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "cd ./server && npm run dev",
+    "client": "cd ./client && npm start",
+    "dev": "./node_modules/.bin/concurrently \"npm:server\" \"npm:client\""
   },
   "author": "Ian Goodnight",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^6.1.0"
+  }
 }
